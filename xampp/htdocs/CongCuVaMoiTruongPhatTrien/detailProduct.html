@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./admin/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li><a href="./main.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li>
+                            <a href="#">Shop</a>
+                            <i class="fas fa-chevron-down arrow-down" ></i>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li>
+                            <a href="#">Pages</a>
+                            <i class="fas fa-chevron-down arrow-down"></i>
+                        </li>
+                    </ul>
+                    <div class="header__user">
+                        <i class="far fa-user-circle header__user-icon"></i>
+                        <div class="header__user-sign">
+                            <a href="" class="header__user-signin">Sign in</a>
+                            <p>Account</p>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="header-with-search">
+                    <img src="./assets/img/logo.png" alt="" class="header-logo">
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="header__cart">
+                        <a class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                        </a>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-10">
+                        <div class="detail-product">
+                            <img src="./admin/uploads/iPad Pro 2021 12.9 inch Wifi 4G 128GB Bạc.png" alt="" class="detail-product_img">
+                            <div class="detail-product-info">
+                                <div class="info-detail">
+                                    <h1 class="detail-product-h1">MacBook Air 2020 13.3 inch MGNA3SA/A (M1/8GB/SSD512GB)</h1>
+                                    <h3 class="detail-product-brand">Thương hiệu Apple</h3>
+                                    <span class="etail-product-price-sale">31.119.000đ</span>
+                                    <span class="detail-product-price">34.990.000đ</span>
+                                </div>
+                                <button class="detail-product-btn">Liên hệ</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                   <div class="grid__column-2">
+
+                   </div>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="detail-product-desc">
+                    <h3 class="detail-product-desc-heading">Mô tả sản phẩm</h3>
+                    <p class="detail-product-desc-p">Thiết kế sang trọng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var images = [
+            "https://lh3.googleusercontent.com/YvbLR5xADVTTWcGf_4GNDCfFdXZlwldcxn0L9Fm2WQoOmjimmaKV6d9hIehVgfGN9tpnixKBRYOsp1puN9ceiHhiH6oGYP3c-g=rw",
+            "https://lh3.googleusercontent.com/LhmmxRBJwtxUPdANT6AtnggFobAA2iTXBTh6pgG-fkowdLxvClCaCpb48_gH0izW07wUF8v7miy1siKzhthsP0y-PnC9Fiw=rw",
+            "https://lh3.googleusercontent.com/QmR_sU2zCwN_f_UyyLBcL2Z4zLBKyu-hvcomCQNDUwepuWFR4nArD5M3F--5xBPxSAaCcyExSAZGhdyMDwDLrpLS8qMItVQ=rw",
+            "https://lh3.googleusercontent.com/2ocXF9nro-8iu2uVGUyJHvLaE2Sgm2HrjXVf3gHNp_oq9JVLDHO5yzcwmuu8Mpwe4Fky_q-2Y7k6UU_IZAvTtZR1BdadPOi4FA=rw",
+            "https://lh3.googleusercontent.com/iewPQdpDuqZBRdn5u4PQMi6euMDlpYoBCqIoSQWfkKXgn0Pswdw7ZcY9GKS3b_i3B5J_PKx4WwAoA8s0PzD1MQQRbjn4_9wu6A=rw",
+            "https://lh3.googleusercontent.com/QfFMZBfJUZxrLNYDTvsvxm9OyfDX3hXbkjVHVIlCA-26qiak5Q4qej5-T3ZBqpH70xQWUs75sg4p9wSXksU_vP6iZCQB1uu0=rw"
+        ];
+        var num = 0;
+
+        function next() {
+            var slider = document.getElementById("slider");
+            num++;
+            if (num >= images.length) {
+                num = 0;
+            }
+            slider.src = images[num];
+        }
+
+        function prev() {
+            var slider = document.getElementById("slider");
+            num--;
+            if (num < 0) {
+                num = images.length - 1;
+            }
+            slider.src = images[num];
+        }
+    </script>
+</body>
+</html>

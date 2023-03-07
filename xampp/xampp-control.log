@@ -1,0 +1,104 @@
+8:08:19 PM  [main] 	Initializing Control Panel
+8:08:19 PM  [main] 	Windows Version:  Enterprise  64-bit
+8:08:19 PM  [main] 	XAMPP Version: 8.1.10
+8:08:19 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+8:08:19 PM  [main] 	Running with Administrator rights - good!
+8:08:19 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+8:08:19 PM  [main] 	Checking for prerequisites
+8:08:19 PM  [main] 	All prerequisites found
+8:08:19 PM  [main] 	Initializing Modules
+8:08:19 PM  [Apache] 	XAMPP Apache is already running on port 80
+8:08:19 PM  [Apache] 	XAMPP Apache is already running on port 443
+8:08:19 PM  [main] 	Starting Check-Timer
+8:08:19 PM  [main] 	Control Panel Ready
+8:08:21 PM  [Apache] 	Attempting to stop Apache (PID: 19060)
+8:08:21 PM  [Apache] 	Attempting to stop Apache (PID: 10404)
+8:08:21 PM  [Apache] 	Status change detected: stopped
+8:08:22 PM  [mysql] 	Attempting to start MySQL app...
+8:08:22 PM  [mysql] 	Status change detected: running
+8:08:24 PM  [mysql] 	Status change detected: stopped
+8:08:24 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:08:24 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:08:24 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:08:24 PM  [mysql] 	Press the Logs button to view error logs and check
+8:08:24 PM  [mysql] 	the Windows Event Viewer for more clues
+8:08:24 PM  [mysql] 	If you need more help, copy and post this
+8:08:24 PM  [mysql] 	entire log window on the forums
+8:08:26 PM  [Apache] 	Attempting to start Apache app...
+8:08:26 PM  [Apache] 	Status change detected: running
+8:08:29 PM  [main] 	Deinitializing Modules
+8:08:29 PM  [main] 	Deinitializing Control Panel
+
+8:11:45 PM  [main] 	Initializing Control Panel
+8:11:45 PM  [main] 	Windows Version:  Enterprise  64-bit
+8:11:45 PM  [main] 	XAMPP Version: 8.1.10
+8:11:45 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+8:11:45 PM  [main] 	Running with Administrator rights - good!
+8:11:45 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+8:11:45 PM  [main] 	Checking for prerequisites
+8:11:45 PM  [main] 	All prerequisites found
+8:11:45 PM  [main] 	Initializing Modules
+8:11:45 PM  [Apache] 	XAMPP Apache is already running on port 80
+8:11:45 PM  [Apache] 	XAMPP Apache is already running on port 443
+8:11:45 PM  [main] 	Starting Check-Timer
+8:11:45 PM  [main] 	Control Panel Ready
+8:11:48 PM  [mysql] 	Attempting to start MySQL app...
+8:11:48 PM  [mysql] 	Status change detected: running
+8:11:50 PM  [mysql] 	Status change detected: stopped
+8:11:50 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:11:50 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:11:50 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:11:50 PM  [mysql] 	Press the Logs button to view error logs and check
+8:11:50 PM  [mysql] 	the Windows Event Viewer for more clues
+8:11:50 PM  [mysql] 	If you need more help, copy and post this
+8:11:50 PM  [mysql] 	entire log window on the forums
+8:11:58 PM  [mysql] 	Attempting to start MySQL app...
+8:11:58 PM  [mysql] 	Status change detected: running
+8:11:59 PM  [mysql] 	Status change detected: stopped
+8:11:59 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:11:59 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:11:59 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:11:59 PM  [mysql] 	Press the Logs button to view error logs and check
+8:11:59 PM  [mysql] 	the Windows Event Viewer for more clues
+8:11:59 PM  [mysql] 	If you need more help, copy and post this
+8:11:59 PM  [mysql] 	entire log window on the forums
+8:12:13 PM  [mysql] 	Attempting to start MySQL app...
+8:12:13 PM  [mysql] 	Status change detected: running
+8:12:15 PM  [mysql] 	Status change detected: stopped
+8:12:15 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:12:15 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:12:15 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:12:15 PM  [mysql] 	Press the Logs button to view error logs and check
+8:12:15 PM  [mysql] 	the Windows Event Viewer for more clues
+8:12:15 PM  [mysql] 	If you need more help, copy and post this
+8:12:15 PM  [mysql] 	entire log window on the forums
+8:12:16 PM  [mysql] 	Attempting to start MySQL app...
+8:12:16 PM  [mysql] 	Status change detected: running
+8:12:18 PM  [mysql] 	Status change detected: stopped
+8:12:18 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:12:18 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:12:18 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:12:18 PM  [mysql] 	Press the Logs button to view error logs and check
+8:12:18 PM  [mysql] 	the Windows Event Viewer for more clues
+8:12:18 PM  [mysql] 	If you need more help, copy and post this
+8:12:18 PM  [mysql] 	entire log window on the forums
+8:12:57 PM  [mysql] 	Status change detected: running
+8:12:59 PM  [mysql] 	Status change detected: stopped
+8:12:59 PM  [mysql] 	Error: MySQL shutdown unexpectedly.
+8:12:59 PM  [mysql] 	This may be due to a blocked port, missing dependencies, 
+8:12:59 PM  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+8:12:59 PM  [mysql] 	Press the Logs button to view error logs and check
+8:12:59 PM  [mysql] 	the Windows Event Viewer for more clues
+8:12:59 PM  [mysql] 	If you need more help, copy and post this
+8:12:59 PM  [mysql] 	entire log window on the forums
+8:13:09 PM  [Apache] 	Status change detected: stopped
+8:13:09 PM  [Apache] 	Error: Apache shutdown unexpectedly.
+8:13:09 PM  [Apache] 	This may be due to a blocked port, missing dependencies, 
+8:13:09 PM  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+8:13:09 PM  [Apache] 	Press the Logs button to view error logs and check
+8:13:09 PM  [Apache] 	the Windows Event Viewer for more clues
+8:13:09 PM  [Apache] 	If you need more help, copy and post this
+8:13:09 PM  [Apache] 	entire log window on the forums
+8:13:09 PM  [main] 	Deinitializing Modules
+8:13:09 PM  [main] 	Deinitializing Control Panel
+

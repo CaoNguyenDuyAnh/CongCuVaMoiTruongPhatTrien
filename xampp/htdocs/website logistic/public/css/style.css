@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.header-category {
+    width: 1160px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 20px;
+}   
+
+.logo {
+    height: 60px;
+    position: relative;
+}
+
+.category {
+    display: flex;
+}
+
+.category-item {
+    color: #fff;
+    list-style: none;
+    font-size: 17px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family:Raleway,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.header-img {
+    max-width: 1520px;
+    height: 683.3px;
+    margin: auto;
+}
+
+.header-detail {
+    position: absolute;
+    top: 200px;
+    right: 700px;
+    max-width: 620px;
+    
+}
+
+.header-h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family:Raleway,Arial,sans-serif;
+}
+
+.header-h1   {
+    color: #fff;
+    font-size: 54px;
+    font-family:Raleway,Arial,sans-serif;
+}
+
+.header-btn {
+    padding: 5px 20px;
+    border-radius: 2px;
+    border: none;
+    color: #fff;
+    background-color: #0b60a9;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5px;
+    font-family:Raleway,Arial,sans-serif;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #084274;
+}
+
+.block {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-item {
+    max-width: 280px;
+}
+
+.block-header {
+    font-size: 18px;
+    color: #2995f1;
+    font-weight: 600;
+    font-family: Raleway,Arial,sans-serif;
+    margin: 50px 0 40px;
+}
+
+.post {
+    display: flex;
+    margin: 20px 0 ;
+}
+
+.post-content {
+    height: 70px;
+}
+
+.post-img {
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.post-heading {
+    font-size: 14px;
+    color: #fff;
+    font-family: Raleway,Arial,sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}
+.post-time {
+    color: #fff;
+    font-weight: 200;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-img {
+    height: 78px;
+    width: 78px;
+    margin: 5px;
+}
+
+.twitter-author {
+    color: #fff;
+    font-size: 12px;
+    font-family: Raleway,Arial,sans-serif;
+    text-decoration: none;
+}
+
+.twitter-block {
+    margin: 15px 0;
+}
+
+.twitter-content {
+    color: #fff;
+    font-family: Raleway,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.twitter-icon {
+    font-size: 18px;
+    color: #2995f1;
+    margin-right: 5px;
+}
+
+.footer-link {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-link-item {
+    color: #fff;
+    list-style: none;
+    padding: 0 10px 15px;
+    min-width: 180px;
+}
